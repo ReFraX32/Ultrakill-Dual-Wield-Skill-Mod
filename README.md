@@ -17,7 +17,7 @@ This mod for Ultrakill adds a dual-wield power-up with customizable cooldown and
 2. Use the in-game menu to set the cooldown time and activation key.
 
 ## Requirements
-- You need to install and open at least one time [BepInEx](https://thunderstore.io/c/ultrakill/p/BepInEx/BepInExPack/)
+- You need to install and open at least one time [BepInEx](https://thunderstore.io/c/ultrakill/p/BepInEx/BepInExPack/).
   
 ## Credits
 - Developed by ReFraX.

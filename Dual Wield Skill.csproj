@@ -37,10 +37,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\Ultrakill output\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\..\..\Program Files\Steam\steamapps\common\ULTRAKILL\ULTRAKILL_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx">
-      <HintPath>C:\Users\user\AppData\Roaming\Thunderstore Mod Manager\DataFolder\ULTRAKILL\profiles\Default\BepInEx\core\BepInEx.dll</HintPath>
+      <HintPath>..\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

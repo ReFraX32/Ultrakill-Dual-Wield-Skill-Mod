@@ -18,6 +18,8 @@ This mod for Ultrakill adds a dual-wield power-up with customizable cooldown and
 1. Download the latest release of the mod [Configgy](https://thunderstore.io/c/ultrakill/p/Hydraxous/Configgy/) and install it in your `BepInEx/plugins` directory.
 2. Use the in-game menu to set the cooldown time and activation key.
 
+![Mod Configuration](https://github.com/user-attachments/assets/2981226d-b761-4cc8-92d9-2c9e0e4463d2)
+ 
 ## Requirements
 - You need to install and open at least one time [BepInEx](https://thunderstore.io/c/ultrakill/p/BepInEx/BepInExPack/).
   

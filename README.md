@@ -12,8 +12,8 @@ This mod for Ultrakill adds a dual-wield power-up with customizable cooldown and
 - Easy to use configuration menu.
 
 ## Installation with Thunderstore
-1. Visit the [Thunderstore website](https://www.overwolf.com/app/Thunderstore-Thunderstore_Mod_Manager) then download the app and install it using Overwolf.
-2. Visit the [Thunderstore Dual Wield Skill Page]([https://www.overwolf.com/app/Thunderstore-Thunderstore_Mod_Manager](https://thunderstore.io/c/ultrakill/p/ReFraX/Dual_Wield_Skill/)).
+1. Visit the [Thunderstore Website](https://www.overwolf.com/app/Thunderstore-Thunderstore_Mod_Manager) then download the app and install it using Overwolf.
+2. Visit the [Thunderstore Dual Wield Skill Page](https://thunderstore.io/c/ultrakill/p/ReFraX/Dual_Wield_Skill)).
 3. Click "Install with Mod Manager" and then click "Modded" to open the Game with mods.
 
 ## Manual Installation

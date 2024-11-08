@@ -43,7 +43,7 @@
       <HintPath>..\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="Configgy">
-      <HintPath>C:\Users\ruffi\AppData\Roaming\Thunderstore Mod Manager\DataFolder\ULTRAKILL\profiles\Default\BepInEx\plugins\Hydraxous-Configgy\Configgy.dll</HintPath>
+      <HintPath>..\..\..\BepInEx\plugins\Hydraxous-Configgy\Configgy.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

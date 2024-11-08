@@ -7,7 +7,7 @@ This mod for Ultrakill adds a dual-wield power-up with customizable cooldown and
 ![Dual Wield Skill Preview](https://github.com/user-attachments/assets/30088ac3-8608-4224-b2d1-cc11986c0ba9)
 
 ## Features
-- Activate dual-wield with a configurable key.
+- Activate dual-wield with a configurable key, the default is "B".
 - Customize the power-up duration and cooldown time.
 - Easy to use configuration menu.
 

@@ -4,7 +4,7 @@ This mod for Ultrakill adds a dual-wield power-up with customizable cooldown and
 
 ![Dual Wield Skill Icon](https://github.com/user-attachments/assets/cef4d9a9-ca35-441a-be1e-c0753796514c) 
 
-![Dual Wield Skill](https://github.com/user-attachments/assets/3d5562de-0306-4fac-8746-037f2fd2a2db)
+![Dual Wield Skill Preview](https://github.com/user-attachments/assets/30088ac3-8608-4224-b2d1-cc11986c0ba9)
 
 ## Features
 - Activate dual-wield with a configurable key.
@@ -25,11 +25,12 @@ This mod for Ultrakill adds a dual-wield power-up with customizable cooldown and
 1. Download the latest release of the mod [Configgy](https://thunderstore.io/c/ultrakill/p/Hydraxous/Configgy/) and install it in your `BepInEx/plugins` directory.
 2. Use the in-game menu to set the cooldown time and activation key.
 
-![Mod Configuration](https://github.com/user-attachments/assets/2981226d-b761-4cc8-92d9-2c9e0e4463d2)
- 
+![Dual Wield Skill Configuration Preview](https://github.com/user-attachments/assets/08108cd0-9bdb-432c-927c-d1bcfdf2424a)
+
 ## Requirements
 - You need to install and open at least one time [BepInEx](https://thunderstore.io/c/ultrakill/p/BepInEx/BepInExPack/).
   
 ## Credits
 - Developed by ReFraX.
 - Special thanks to the Ultrakill developers.
+- Special thanks to Hydraxous for making Configgy.

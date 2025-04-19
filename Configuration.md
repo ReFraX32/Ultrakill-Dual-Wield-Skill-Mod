@@ -64,6 +64,12 @@ The project includes the following references:
 18. **Configgy.dll**
     - **Hint Path**: `..\plugins\Configgy.dll`
 
+19. **UnityEngine.ImageConversionModule.dll**
+    - **Hint Path**: `..\..\..\Program Files\Steam\steamapps\common\ULTRAKILL\ULTRAKILL_Data\Managed\UnityEngine.ImageConversionModule.dll`
+
+20. **0Harmony.dll**
+   - **Hint Path**: `..\BepInEx\core\0Harmony.dll`
+
 ## Project Files
 
 - **Compile Include**:

@@ -46,7 +46,6 @@ namespace DualWieldSkill
         private float lastYValue = 0f;
         private float lastScaleValue = 1.0f;
 
-        // Store the original cooldown value when it changes during active cooldown
         private float originalCooldownValue;
         private float cooldownStartTime;
         private bool cooldownActive = false;
@@ -57,10 +56,8 @@ namespace DualWieldSkill
             cooldownConfig = Config.Bind("Gameplay", "Cooldown Time", 120f, "Cooldown time in seconds for the dual-wield power-up.");
             powerUpDurationConfig = Config.Bind("Gameplay", "Power-Up Duration", 30f, "Duration in seconds for the dual-wield power-up.");
 
-            // Store the initial cooldown value
             originalCooldownValue = cooldownConfig.Value;
 
-            // Add a callback for when the cooldown value changes
             cooldownConfig.SettingChanged += OnCooldownSettingChanged;
 
             ConfigBuilder configBuilder = new ConfigBuilder("Dual Wield Skill", null);
@@ -76,15 +73,12 @@ namespace DualWieldSkill
 
         private void OnCooldownSettingChanged(object sender, System.EventArgs e)
         {
-            // If cooldown is active, recalculate based on elapsed time and new total
             if (cooldownActive)
             {
                 float elapsedTime = Time.time - cooldownStartTime;
                 float remainingTimePercentage = (originalCooldownValue - elapsedTime) / originalCooldownValue;
-                // Apply the same percentage to the new cooldown value
                 float newRemainingTime = remainingTimePercentage * cooldownConfig.Value;
                 nextUseTime = Time.time + newRemainingTime;
-                // Update the original values for future calculations
                 originalCooldownValue = cooldownConfig.Value;
                 cooldownStartTime = Time.time - (cooldownConfig.Value - newRemainingTime);
             }
@@ -111,7 +105,6 @@ namespace DualWieldSkill
 
         private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
         {
-            // Reset cooldown regardless of whether it's a restart or new level load
             ResetCooldown();
 
             sceneLoadTime = Time.time;
@@ -138,14 +131,12 @@ namespace DualWieldSkill
 
         private void CreateUICanvas()
         {
-            // Destroy existing canvas if it exists
             GameObject existingCanvas = GameObject.Find("DualWieldCanvas");
             if (existingCanvas != null)
             {
                 Destroy(existingCanvas);
             }
 
-            // Create a new canvas
             GameObject canvasObj = new GameObject("DualWieldCanvas");
             uiCanvas = canvasObj.AddComponent<Canvas>();
             uiCanvas.renderMode = RenderMode.ScreenSpaceOverlay;
@@ -224,7 +215,6 @@ namespace DualWieldSkill
                 timerRect.anchoredPosition = Vector2.zero;
                 timerRect.sizeDelta = new Vector2(150, 50);
 
-                // Make sure text is on top of icons
                 timerRect.SetAsLastSibling();
 
                 UpdateUIPosition();
@@ -287,7 +277,6 @@ namespace DualWieldSkill
                 return;
             }
 
-            // Start fade-in after delay
             if (!uiFadeInStarted)
             {
                 uiFadeInStarted = true;
@@ -357,7 +346,6 @@ namespace DualWieldSkill
             float remainingTime = Mathf.Max(0, nextUseTime - Time.time);
             if (remainingTime > 0)
             {
-                // Calculate fill amount based on current cooldown value, not the original
                 float currentCooldownTotal = cooldownActive ? originalCooldownValue : cooldownConfig.Value;
                 float elapsedTime = currentCooldownTotal - remainingTime;
                 activeIcon.fillAmount = elapsedTime / currentCooldownTotal;

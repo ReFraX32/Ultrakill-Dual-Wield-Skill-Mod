@@ -7,8 +7,7 @@ This mod for Ultrakill adds a dual-wield power-up with customizable cooldown and
 ![Dual Wield Skill Preview](https://github.com/user-attachments/assets/30088ac3-8608-4224-b2d1-cc11986c0ba9)
 
 ## ⚠️ Warning
-For the mod to function correctly with the **ULTRA_REVAMP** update, please set  
-`HideManagerGameObject = true` in **BepInEx.cfg**.
+For the mod to function correctly with the **ULTRA_REVAMP** update, please set `HideManagerGameObject = true` in **BepInEx.cfg**.
 
 ## Features
 - Activate dual-wield with a configurable key, the default is "B".
